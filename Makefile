@@ -47,7 +47,7 @@ all: clean
 	chmod -R +x $(PWD)/build/Boilerplate.AppDir/pdfsam/runtime
 	chmod -R +x $(PWD)/build/Boilerplate.AppDir/pdfsam/bin
 
-	export ARCH=x86_64 && $(PWD)/bin/appimagetool.AppImage $(PWD)/build/AppDir $(PWD)/PDFsamBasic.AppImage
+	export ARCH=x86_64 && $(PWD)/bin/appimagetool.AppImage $(PWD)/build/Boilerplate.AppDir $(PWD)/PDFsamBasic.AppImage
 	chmod +x $(PWD)/PDFsamBasic.AppImage
 
 clean:
